@@ -1,0 +1,57 @@
+/* RESET STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  list-style: none;
+  word-break: break-all;
+}
+.App,
+#root {
+  min-height: 100vh;
+}
+body,
+html {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+/* noscript styles */
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 0.5em;
+  }
+}
